@@ -17,5 +17,8 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Car> Cars { get; set; } //Cars tablosuyla benim yazdığım Car nesnesini eşitledim.
         public DbSet<Brand> Brands { get; set; } //Brands tablosuyla benim yazdığım Brand nesnesini eşitledim.
         public DbSet<Color> Colors { get; set; } // Colors tablosuyla Color nesnesini eşitledim.
+        public DbSet<User> Users { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
     }
 }

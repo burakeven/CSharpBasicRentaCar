@@ -18,9 +18,5 @@ namespace Core.Utilites.Result
         {
 
         }
-        public SuccessDataResult():base(default,true)
-        {
-
-        }
     }
 }
